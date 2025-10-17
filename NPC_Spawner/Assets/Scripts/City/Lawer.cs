@@ -1,6 +1,6 @@
 public class Lawer : INPC
 {
-   string talk = "Do you have some change to spare?";
+   string talk = "You must follow the rule or I can't help you.";
     public string Speak()
     {
         return talk;

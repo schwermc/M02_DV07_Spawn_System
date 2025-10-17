@@ -1,6 +1,6 @@
 public class Baker : INPC
 {
-   string talk = "Do you have some change to spare?";
+   string talk = "Baking is like a science, it requires precise measurements";
     public string Speak()
     {
         return talk;

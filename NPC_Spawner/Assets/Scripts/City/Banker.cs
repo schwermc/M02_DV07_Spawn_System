@@ -1,6 +1,6 @@
 public class Banker : INPC
 {
-   string talk = "Do you have some change to spare?";
+   string talk = "Are you here to deposit?";
     public string Speak()
     {
         return talk;

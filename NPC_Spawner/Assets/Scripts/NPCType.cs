@@ -5,5 +5,8 @@ public enum NPCType
     Cleric,
     Farmer,
     Miner,
-    Shopowner
+    Shopowner,
+    Baker,
+    Banker,
+    Lawer
 }
