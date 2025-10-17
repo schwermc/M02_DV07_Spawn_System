@@ -12,7 +12,7 @@ public class Client : MonoBehaviour
 
     public INPC GetNPC(NPCType type)
     {
-        var npcType = new NPCFactory(type);
+        var npcType = new VillagersNPCFactory(type);
         return npcType.Create();
     }
 }

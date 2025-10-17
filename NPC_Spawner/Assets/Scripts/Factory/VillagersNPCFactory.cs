@@ -1,8 +1,8 @@
-public class NPCFactory : AbstractNPCFactory
+public class VillagersNPCFactory : AbstractNPCFactory
 {
     private readonly NPCType _type;
 
-    public NPCFactory(NPCType type)
+    public VillagersNPCFactory(NPCType type)
     {
         _type = type;
     }
